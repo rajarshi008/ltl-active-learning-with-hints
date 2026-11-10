@@ -1,0 +1,11 @@
+# Core learner: no dependencies beyond the Python standard library (3.10+).
+
+# SAT-based version space (version_space="sat")
+z3-solver>=4.12
+
+# Automata-based Distinguish (distinguish="automata"); also needs the `mona` binary on PATH
+ltlf2dfa>=1.0.2
+
+# Benchmark environments Taxi and MiniGrid DoorKey (the Office world needs nothing)
+gymnasium>=1.0
+minigrid>=3.0

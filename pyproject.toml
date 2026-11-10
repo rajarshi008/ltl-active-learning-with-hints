@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ltlf-learner"
+version = "1.0.0"
+description = "Active learning of LTLf formulas through distinguishing queries"
+requires-python = ">=3.10"
+
+[project.optional-dependencies]
+sat = ["z3-solver>=4.12"]
+automata = ["ltlf2dfa>=1.0.2"]
+environments = ["gymnasium>=1.0", "minigrid>=3.0"]
+all = ["z3-solver>=4.12", "ltlf2dfa>=1.0.2", "gymnasium>=1.0", "minigrid>=3.0"]
+
+[tool.setuptools]
+packages = ["ltlf_learner"]
