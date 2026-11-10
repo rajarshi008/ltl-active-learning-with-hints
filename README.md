@@ -9,6 +9,8 @@ A teacher knows a target formula and answers two kinds of questions:
 
 The learner keeps every formula of a bounded class that fits the answers so far (the *version space*). It compares its current hypothesis with other formulas (*rivals*) and asks the teacher about a trace on which they disagree. When no remaining formula can be told apart from the hypothesis, it stops.
 
+The paper, with all appendices, is in [`paper/active-learning-ltlf-with-hints.pdf`](paper/active-learning-ltlf-with-hints.pdf).
+
 ## Install
 
 ```bash
